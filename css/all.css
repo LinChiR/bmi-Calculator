@@ -191,6 +191,15 @@ table {
 /*list樣式*/
 .list{
 	position: relative;
-    transform: translatex(50%);
-	width: 512px;
+	transform: translatex(50%);
+	height: 250px;
+	width: 500px;
+	background: white;
+}
+
+.footer{
+	position: relative;
+	height: 100px;
+	transform: translateY(100%);
+	background: #FFD366;
 }

@@ -60,7 +60,7 @@ function updataList(data){
     var string  = '';
     var len = data.length;
     for (var i = 0; i < len; i++){
-        string += '<li style = "border-left: 5px solid '+data[i].color+' ;margin-top: 20px;">';
+        string += '<li style = "border-left: 5px solid '+data[i].color+' ;padding-top: 5px; padding-bottom: 5px; margin-top:10px;">';
         string += '<span style = "width: 100px; margin-left:20px; font-weight:bold; ">'+data[i].str+'</span>';
         string += '<span style = "width: 100px; margin-left:20px; font-weight:bold; "> BMI: '+data[i].bmi+' </span>';
         string += '<span style = "width: 100px; margin-left:20px; font-weight:bold; "> height: '+data[i].height+' cm </span>';
